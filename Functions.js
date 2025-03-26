@@ -79,6 +79,36 @@
 
 
 //IIFE - Immediately Invoked Function Expression
-(function () {
-    console.log('Hello World');
-})();
+// (function () {
+//     console.log('Hello World');
+// })();
+
+
+// var a;
+// function fun()
+// {
+//     console.log(a);
+// }
+// a = 100;
+// console.log(a);
+// fun();
+
+
+// function fun()
+// {
+//     let a = 100;
+//     console.log(a);
+// }
+// fun();
+// console.log(a);
+
+
+// function fun(num)
+// {
+//     for (var i = 1; i <= 5; i++)    //var is function scoped, but it breaches it to reach function scope following HOISTING.
+//     {
+//         console.log(i);
+//     }
+//     console.log("final value of i = ",i);
+// }
+// fun(5);
