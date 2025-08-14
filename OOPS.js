@@ -60,10 +60,24 @@
 
 
 
-let a = 100;
-var b;
+// pass by reference - objects in JS can refer to the same memory location
 
-b = a;
-console.log(b);
-b = 200;
-console.log(b);
+// let a = {
+//     name: "Nissan",
+//     price: "82.77 L",
+//     model: "2020",
+//     mileage: "22 km/L"
+// };
+
+// let b = a;
+// console.log(b);
+
+// b.name = "Toyota";
+// console.log(b.name);
+// console.log(a.name);
+
+// let c = { ...a }    // creates a shallow copy of object a
+// console.log(c);
+// c.name = "Honda";
+// console.log(a);
+// console.log(c);
