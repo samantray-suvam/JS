@@ -60,6 +60,8 @@
 
 
 
+// Example - 3
+
 // pass by reference - objects in JS can refer to the same memory location
 
 // let a = {
@@ -81,3 +83,35 @@
 // c.name = "Honda";
 // console.log(a);
 // console.log(c);
+
+
+
+// Example - 4
+
+// function exmp(car) {
+//     console.log(car);
+// }
+
+// let c1 = {
+//     name: "qwe",
+//     cost: 123456,
+//     year : 1234
+// };
+
+// exmp(c1);
+
+
+// function exmp()     //creating function
+// {
+//     let c1 =        //creating object
+//     {
+//         name: "qwe",
+//         cost: 123456,
+//         year: 1234
+//     };
+
+//     return c1;  //returning object
+// }
+// console.log(exmp()); //calling function and printing the returned object
+
+

@@ -109,6 +109,6 @@
 //     {
 //         console.log(i);
 //     }
-//     console.log("final value of i = ",i);
+//     console.log(`final value of i = ${i}`);
 // }
 // fun(5);

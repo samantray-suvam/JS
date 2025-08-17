@@ -25,7 +25,7 @@
 // let e_name="zxc";
 // console.log(name == e_name);
 
-// console.log('5' == 5); 
+// console.log('5' == 5);
 //implicit type casting
 //type coercion
 //equality operator only compares the values
@@ -40,11 +40,11 @@
 
 // console.log(null == undefined);
 // console.log('' == 0); //empty string == 0
-// console.log(' ' === 0); 
-// console.log(false == ''); 
-// console.log(NaN == NaN); 
+// console.log(' ' === 0);
+// console.log(false == '');
+// console.log(NaN == NaN);
 // console.log('true' == true);
-// console.log('010' == 10); 
+// console.log('010' == 10);
 
 
 // 3. CONDITIONAL STATEMENTS
@@ -58,3 +58,10 @@
 // {
 //     console.log("regular");
 // }
+
+
+// [===] checks if the typeof values are same
+console.log(3 === '3');
+
+// [==] checks if the values are same
+console.log(3 == '3');
