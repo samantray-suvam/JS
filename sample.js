@@ -60,10 +60,15 @@
 // }
 
 
-// [===] checks if the typeof values are same   [PREFER ===]
-console.log(3 === '3');
 
-// [==] checks if the values are same
-console.log(3 == '3');
+// Example - 1
 
-console.log(3 !== '3');
+// // [===] checks if the typeof values are same   [PREFER ===]
+// console.log(3 === '3');
+
+// // [==] checks if the values are same
+// console.log(3 == '3');
+
+// console.log(3 !== '3');
+
+console.log();
