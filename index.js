@@ -114,28 +114,27 @@ create business name = adjective + shop_name + word
 // } else {
 //     third="hub"
 // }
-
 // console.log(`${first} ${second} ${third}`)
 
 
 // alternate method using arrays + for loop
-let sections = [
-  ["crazy", "amazing", "fire"],     // first word choices
-  ["engine", "foods", "garments"], // second word choices
-  ["bros", "limited", "hub"]       // third word choices
-]
+// let sections = [
+//   ["crazy", "amazing", "fire"],     // first word choices
+//   ["engine", "foods", "garments"], // second word choices
+//   ["bros", "limited", "hub"]       // third word choices
+// ]
 
-let result = [];
+// let result = [];
 
-for (let i = 0; i < sections.length; i++) {
-  let random = Math.random();
-  if (random < 0.33) {
-    result.push(sections[i][0]);
-  } else if (random < 0.66) {
-    result.push(sections[i][1]);
-  } else {
-    result.push(sections[i][2]);
-  }
-}
+// for (let i = 0; i < sections.length; i++) {
+//   let random = Math.random();
+//   if (random < 0.33) {
+//     result.push(sections[i][0]);
+//   } else if (random < 0.66) {
+//     result.push(sections[i][1]);
+//   } else {
+//     result.push(sections[i][2]);
+//   }
+// }
 
-console.log(result.join(" "));
+// console.log(result.join(" "));
