@@ -74,7 +74,7 @@
 
 
 
-// using Map method 
+// using Map method
 
 // let arr = [2, 4, 6, 8, 12];
 // let newArr = []
@@ -126,5 +126,26 @@
 
 
 
-// converts anything into an array -> even an HTML page 
-console.log(Array.from("suvam+123"))
+// converts anything into an array -> even an HTML page
+// console.log(Array.from("suvam+123"))
+
+
+
+
+
+
+// exrecise - 11 - calculate factorial of a Number
+
+// 5! = 5*4*3*2*1
+
+const a = 10;
+function fact(num) {
+    let arr = Array.from(Array(num + 1).keys())
+    console.log(arr.slice(1,));
+    let c = arr.slice(1,).reduce((a, b) => {
+        return a * b
+    })
+    console.log(c)
+}
+
+fact(a)
