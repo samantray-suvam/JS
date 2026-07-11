@@ -138,14 +138,27 @@
 
 // 5! = 5*4*3*2*1
 
-const a = 10;
-function fact(num) {
-    let arr = Array.from(Array(num + 1).keys())
-    console.log(arr.slice(1,));
-    let c = arr.slice(1,).reduce((a, b) => {
-        return a * b
-    })
-    console.log(c)
-}
 
-fact(a)
+// method - 1 -> using [reduce] method
+// const a = 4;
+// function fact(num) {
+//     let arr = Array.from(Array(num + 1).keys())
+//     // console.log(arr.slice(1,));
+//     let c = arr.slice(1,).reduce((a, b) => {
+//         return a * b
+//     })
+//     console.log(c);
+// }
+// fact(a)
+
+
+// method - 2 -> using [for] loop
+const a = 5;
+function factorialFor(number) {
+    let factorial = 1;
+    for (let index = 1; index <= number; index++) {
+        factorial = factorial * index;        
+    }
+    console.log(factorial);
+}
+factorialFor(a);
